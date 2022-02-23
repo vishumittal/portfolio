@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.chrome_reader_mode),
-            title: Text('Experience'),
+            title: Text('Curriculum Vitae'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.folder_open),

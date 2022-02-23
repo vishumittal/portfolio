@@ -25,20 +25,20 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'Yash Khare',
+                'Vaishnavi Mittal',
                 textScaleFactor: 4,
               ),
               SizedBox(
                 height: 20,
               ),
               Text(
-                'Member and mentor @amFOSS\nComputer Vision | Flutter | Android Developer',
+                'Computer Science Graduate 2022 | Volunteer at Techshilla\nComputer Vision | Flutter | Android Developer',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
               ),
               SizedBox(
-                height: 10,
+                height: 30,
               ),
               Center(
                 child: new InkWell(
@@ -54,11 +54,42 @@ class AboutTab extends StatelessWidget {
                       textAlign: TextAlign.center,
                     ),
                     onTap: () =>
-                        launch('https://yashk2000.github.io/docs/cv.pdf')),
+                        launch('https://vishumittal.github.io/docs/cv.pdf')),
               ),
               SizedBox(
                 height: 30,
               ),
+              // Row(
+              //   mainAxisAlignment: MainAxisAlignment.center,
+              //   crossAxisAlignment: CrossAxisAlignment.center,
+              //   children: <Widget>[
+              //     FlatButton.icon(
+              //       icon: SizedBox(
+              //           width: 20,
+              //           height: 20,
+              //           child: Image.asset(Assets.github)),
+              //       label: Text('Github'),
+              //       onPressed: () =>
+              //           html.window.open(Constants.PROFILE_GITHUB, 'yashk2000'),
+              //     ),
+              //     // FlatButton.icon(
+              //     //   icon: SizedBox(
+              //     //       width: 20,
+              //     //       height: 20,
+              //     //       child: Image.asset(Assets.gitlab)),
+              //     //   label: Text('GitLab'),
+              //     //   onPressed: () =>
+              //     //       html.window.open(Constants.PROFILE_GITLAB, 'yashk2000'),
+              //     // ),
+              //     // FlatButton.icon(
+              //     //   icon: SizedBox(
+              //     //       width: 20, height: 20, child: Image.asset(Assets.blog)),
+              //     //   label: Text('Blog'),
+              //     //   onPressed: () =>
+              //     //       html.window.open(Constants.PROFILE_BLOG, 'yash2k'),
+              //     // )
+              //   ],
+              // ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -72,30 +103,6 @@ class AboutTab extends StatelessWidget {
                     onPressed: () =>
                         html.window.open(Constants.PROFILE_GITHUB, 'yashk2000'),
                   ),
-                  FlatButton.icon(
-                    icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.gitlab)),
-                    label: Text('GitLab'),
-                    onPressed: () =>
-                        html.window.open(Constants.PROFILE_GITLAB, 'yashk2000'),
-                  ),
-                  FlatButton.icon(
-                    icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.blog)),
-                    label: Text('Blog'),
-                    onPressed: () =>
-                        html.window.open(Constants.PROFILE_BLOG, 'yash2k'),
-                  )
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
                   FlatButton.icon(
                     icon: SizedBox(
                         width: 20,
@@ -125,10 +132,20 @@ class AboutTab extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(height: 120),
+              SizedBox(height: 60),
               Align(
-                  alignment: Alignment.bottomCenter,
-                  child: Text("Made with Flutter"))
+                alignment: Alignment.bottomCenter,
+                child: TextButton(
+                  onPressed: () => html.window.open(
+                    Constants.CREDIT,
+                    'yashk2000',
+                  ),
+                  // child: Text(
+                  //   "Made with Flutter",
+                  //   textAlign: TextAlign.center,
+                  // ),
+                ),
+              ),
             ],
           ),
         ),

@@ -24,14 +24,19 @@ class Assets {
   static const cv = 'assets/works/computer-vision.jpg';
   static const mifos = 'assets/works/mifos.png';
   static const arPaint = 'assets/works/arpaint.png';
-  static const cctv = 'assets/works/cctv.jpeg';
+  // static const cctv = 'assets/works/cctv.jpeg';
   static const dexify = 'assets/works/dexify.png';
   static const lorax = 'assets/works/lorax.png';
-  static const hh = 'assets/works/hh.jpeg';
+  // static const hh = 'assets/works/hh.jpeg';
   static const mentored = 'assets/works/mentored.png';
-  static const kitn = 'assets/works/kitn.png';
-  static const ss = 'assets/works/ss.png';
-  static const gitgo = 'assets/works/gitgo.png';
-  static const hm = 'assets/works/hm.jpg';
-  static const navft = 'assets/works/navft.jpeg';
+  // static const kitn = 'assets/works/kitn.png';
+  // static const ss = 'assets/works/ss.png';
+  // static const gitgo = 'assets/works/gitgo.png';
+  // static const hm = 'assets/works/hm.jpg';
+  // static const navft = 'assets/works/navft.jpeg';
+
+  static const ss = 'assets/quizzler-demo.gif';
+  static const kitn = 'assets/destini.gif';
+  static const cctv = 'assets/bmi-calc-demo.gif';
+  static const hh = 'assets/b8-ball-flutter-gif.gif';
 }
